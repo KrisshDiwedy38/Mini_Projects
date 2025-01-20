@@ -1,0 +1,74 @@
+PYTHON PROJECT
+   <!--
+   Project 1: Calculator Program Create a simple calculator program that takes in math expressions as input and evaluates them. For example, the user can input 2+2 and the program should output 4.
+
+   Project 2: To-Do List App Build a simple to-do list app that allows users to add, remove, and mark tasks as completed. You can use a list to store the tasks and implement functions to perform the above operations.
+
+   Project 3: Rock, Paper, Scissors Game Create a Rock, Paper, Scissors game where the user can play against the computer. The program should generate a random choice (rock, paper, or scissors) and determine the winner based on the game's rules. 
+
+   Project 4: Hangman Game Implement a Hangman game where the user has to guess a word by inputting individual letters. The program should keep track of the correct and incorrect guesses and display the hangman figure accordingly.
+
+   Project 5: Mad Libs Game Build a Mad Libs game where the user is prompted to input words such as noun, verb, adjective, etc. and then generates a funny story with the input words.
+
+   Project 6: Weather Program Create a program that takes in a city name as input and displays the current weather and temperature. You can use an API like OpenWeatherMap to fetch the weather data. -->
+
+   Project 7: Chatbot Implement a simple chatbot that responds to basic user inputs such as "hello", "goodbye", etc. You can use a dictionary to store the responses.
+
+ 
+PYTHON SCRIPTING PROJECTS
+
+   Project 1: File Organizer Create a script that organizes files in a specified directory by moving them into subfolders based on their file extensions. For example, all .jpg files should be moved to a ‘Photos’ folder, .txt files to a ‘Documents’ folder, etc.
+   <!--
+   Project 2: Password Generator Build a program that generates strong, random passwords based on user-specified criteria such as length, inclusion of numbers, special characters, and uppercase/lowercase letters.
+    -->
+   Project 3: URL Shortener Develop a simple URL shortener that takes a long URL as input and generates a shorter version. The program should also be able to redirect the short URL to the original long URL.
+   
+   Project 4: Web Scraper Write a script that extracts specific information from a website, such as headlines from a news site, and displays or saves this information in a structured format.
+      Key Skills: Web scraping with BeautifulSoup or Selenium, making API requests, data processing, data integration.
+
+   Project 5: Expense Tracker Create a program that allows users to input and categorize their expenses. The program should generate a summary report showing total expenses, categorized expenses, and other relevant statistics.
+   
+   Project 6: Text-based Adventure Game Develop a simple text-based adventure game where users make choices that affect the story’s outcome. The game should have multiple paths and endings based on user decisions.
+
+   Project 7: Currency Converter Build a program that converts between different currencies using real-time exchange rates from an API. The program should allow users to input an amount and select the currencies for conversion.
+   
+   Project 8: Automated Email Sender Create a script that sends automated emails based on certain triggers or schedules. The program should allow customization of email content and recipients.
+   
+   Project 9: Desktop Notifier Develop a program that displays desktop notifications for reminders or updates from specific sources. The program should allow users to set reminders and customize notification content.
+   
+   Project 10: Simple Encryption/Decryption Tool Create a basic tool that can encrypt and decrypt text using a simple algorithm like the Caesar cipher. The program should allow users to input text and a key for encryption/decryption.
+
+   Project 11: Stock Price Tracker Build a script to fetch live stock prices from a financial API (e.g., Alpha Vantage, Yahoo Finance) and track the prices over time.
+      Key Skills: API integration, handling time series data, and maybe plotting trends using matplotlib or seaborn.
+
+   Project 12: GitHub API Automation Automate tasks on GitHub, such as creating repositories, managing issues, or pulling data about your repositories using the GitHub API.
+      Key Skills: Authentication with APIs (OAuth), working with JSON, handling pagination in API results.
+   
+   Project 12 B: Github auto commit, Build a script to automatically commit files to specified github repository whenever the a file or any change is saved.
+
+   Project 13: Task Automation Using Google Sheets API Automate tasks like updating data, creating reports, or reading from Google Sheets using the Google Sheets API.
+      Key Skills: API authentication (OAuth 2.0), working with the gspread library, handling spreadsheet data.
+
+   Project 14: RESTful API for a To-Do List Create a RESTful API that allows users to create, read, update, and delete tasks in a to-do list application.
+      Key Skills: Building APIs with Flask or FastAPI, understanding HTTP methods (GET, POST, PUT, DELETE), data validation, error handling.
+
+   Project 15: Twitter Bot Automate interactions on Twitter, such as posting tweets, following users, or performing scheduled actions using the Twitter API.
+      Key Skills: Working with tweepy, handling API rate limits, OAuth authentication, scheduling tasks.
+
+   Project 16: Social Media Automation Automate posting content, fetching analytics, or scheduling posts using the APIs of social media platforms like Facebook or LinkedIn.
+      Key Skills: Working with social media APIs, handling user permissions, managing API rate limits.
+
+   Project 17: Spotify Playlist Generator Automate the creation of playlists based on criteria like mood, genre, or favorite songs using the Spotify API.
+      Key Skills: API authentication, working with the spotipy library, handling user preferences, managing playlists.
+
+   Project 18: YouTube Video Downloader with API Integration Automate the process of searching for videos using the YouTube Data API and downloading them using a library like pytube.
+      Key Skills: API search, handling video metadata, downloading files, managing API keys.
+
+   Project 19: Automation of Cloud Infrastructure Management Automate cloud tasks like launching and terminating instances, scaling infrastructure, or backing up data using cloud provider APIs.
+      Key Skills: Working with cloud SDKs and APIs (e.g., AWS boto3, Google Cloud SDK), automating infrastructure, handling API credentials.
+
+   Project 20: API Testing Automation Script Create a script to automatically test REST APIs by sending requests and verifying responses and status codes.
+      Key Skills: Working with testing frameworks (unittest, pytest), writing test cases, handling API responses, automation.
+
+   Project 21: Chatbot Using APIs Build a chatbot for messaging platforms like Telegram, Slack, or Discord that interacts with users and retrieves information from third-party APIs.
+      Key Skills: Working with messaging APIs, handling real-time messages, integrating third-party APIs, managing bots.
