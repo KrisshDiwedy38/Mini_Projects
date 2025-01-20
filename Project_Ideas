@@ -1,4 +1,6 @@
 PYTHON PROJECT
+   <!-- Commented out project = Project completed -->
+   
    <!--
    Project 1: Calculator Program Create a simple calculator program that takes in math expressions as input and evaluates them. For example, the user can input 2+2 and the program should output 4.
 
