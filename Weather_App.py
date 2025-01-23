@@ -1,6 +1,7 @@
 import requests      #for http requests 
 import json          #JSON handling
 
+#Using geological api to get the latitude and longitudes for any location
 def coordinates(city):
    coords_base_url = "http://api.openweathermap.org/geo/1.0/direct?"
    coords_url = coords_base_url + "q=" + city + "&appid=c685d8e7aa2a37749ae4648b042defb5"
@@ -8,7 +9,7 @@ def coordinates(city):
    lats,lons = coords_data[0]["lat"],coords_data[0]["lon"]
    return lats, lons
 
-
+#Fetching from weather API 
 def Weather_info(city):
    base_url = "https://api.openweathermap.org/data/2.5/weather?"
    lats, lons = coordinates(city)
@@ -20,7 +21,7 @@ def Weather_info(city):
    wind_spd = response['wind']['speed']
    return weather, temp, humi, wind_spd
  
-
+#Creating a weather card to output
 def main():
    print("Welcome! Get the weather info for any location in the world.")
    city_name= input("Enter city name: ")
