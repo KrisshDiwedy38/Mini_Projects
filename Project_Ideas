@@ -66,6 +66,9 @@ PYTHON SCRIPTING PROJECTS
    Project 18: YouTube Video Downloader with API Integration Automate the process of searching for videos using the YouTube Data API and downloading them using a library like pytube.
       Key Skills: API search, handling video metadata, downloading files, managing API keys.
 
+   Project 18 B : Youtube transcprit summerizer, downloading transcprit of a youtube video using API and using a machine learning text summerize and train it as you go.
+      Key Skills: API searching/ handling, Machine learning.
+
    Project 19: Automation of Cloud Infrastructure Management Automate cloud tasks like launching and terminating instances, scaling infrastructure, or backing up data using cloud provider APIs.
       Key Skills: Working with cloud SDKs and APIs (e.g., AWS boto3, Google Cloud SDK), automating infrastructure, handling API credentials.
 
