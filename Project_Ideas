@@ -24,6 +24,7 @@ PYTHON SCRIPTING PROJECTS
    Project 2: Password Generator Build a program that generates strong, random passwords based on user-specified criteria such as length, inclusion of numbers, special characters, and uppercase/lowercase letters.
     -->
    Project 3: URL Shortener Develop a simple URL shortener that takes a long URL as input and generates a shorter version. The program should also be able to redirect the short URL to the original long URL.
+      Key Skills: Hashing, use of libraries like hashlibs 
    
    Project 4: Web Scraper Write a script that extracts specific information from a website, such as headlines from a news site, and displays or saves this information in a structured format.
       Key Skills: Web scraping with BeautifulSoup or Selenium, making API requests, data processing, data integration.
