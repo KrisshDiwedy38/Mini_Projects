@@ -14,8 +14,6 @@ PYTHON PROJECT
 
    Project 6: Weather Program Create a program that takes in a city name as input and displays the current weather and temperature. You can use an API like OpenWeatherMap to fetch the weather data. -->
 
-   Project 7: Chatbot Implement a simple chatbot that responds to basic user inputs such as "hello", "goodbye", etc. You can use a dictionary to store the responses.
-
  
 PYTHON SCRIPTING PROJECTS
 <!--
