@@ -41,7 +41,7 @@ PYTHON SCRIPTING PROJECTS
    
    Project 10: Simple Encryption/Decryption Tool Create a basic tool that can encrypt and decrypt text using a simple algorithm like the Caesar cipher. The program should allow users to input text and a key for encryption/decryption.
 
-   Project 11: Stock Price Tracker Build a script to fetch live stock prices from a financial API (e.g., Alpha Vantage, Yahoo Finance) andtrack the prices over time.
+   Project 11: Stock Price Tracker Build a script to fetch live stock prices from a financial API (e.g., Alpha Vantage, Yahoo Finance) and track the prices over time.
       Key Skills: API integration, handling time series data, and maybe plotting trends using matplotlib or seaborn. 
 
    Project 12: GitHub API Automation Automate tasks on GitHub, such as creating repositories, managing issues, or pulling data about your repositories using the GitHub API.
