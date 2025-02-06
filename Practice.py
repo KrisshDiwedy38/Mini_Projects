@@ -1,20 +1,17 @@
-#Project 3: URL Shortener Develop a simple URL shortener that takes a long URL as input and generates a shorter version. The program should also be able to redirect the short URL to the original long URL.
+class Dog:
+   dogs = []
 
-def shortening_url(url):
-   url_parts = url.split("/")
-   for i in url_parts:
-      
+   def __init__(self, name):
+      self.name = name
+      self.dogs.append(name)
 
-# def url_storing(og_url,short_url):
-#    urls = {}
-#    urls[short_url] = og_url
-#    return urls
+   @classmethod
+   def print_objects(self):
+      return self.dogs
 
-def main(og_url):
-   short_url = shortening_url(og_url)
-   # urls = url_storing(og_url, short_url)
-   print(short_url)
 
-if __name__ == "__main__":
-   original_url = input("Enter the url: ")
-   main(original_url)
+dog1 = Dog("Whiskey")
+dog2 = Dog("Franklin")
+dog3 = Dog("Cookie")
+
+print(dog2.print_objects())
