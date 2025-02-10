@@ -9,4 +9,4 @@ def game_cont(myfunc):
          pass
       else:
          break
-   
+
