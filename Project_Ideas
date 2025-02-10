@@ -59,20 +59,17 @@ PYTHON SCRIPTING PROJECTS
    Project 16: Social Media Automation Automate posting content, fetching analytics, or scheduling posts using the APIs of social media platforms like Facebook or LinkedIn.
       Key Skills: Working with social media APIs, handling user permissions, managing API rate limits.
 
-   Project 17: Spotify Playlist Generator Automate the creation of playlists based on criteria like mood, genre, or favorite songs using the Spotify API.
-      Key Skills: API authentication, working with the spotipy library, handling user preferences, managing playlists.
-
-   Project 18: YouTube Video Downloader with API Integration Automate the process of searching for videos using the YouTube Data API and downloading them using a library like pytube.
+   Project 17: YouTube Video Downloader with API Integration Automate the process of searching for videos using the YouTube Data API and downloading them using a library like pytube.
       Key Skills: API search, handling video metadata, downloading files, managing API keys.
 
-   Project 18 B : Youtube transcprit summerizer, downloading transcprit of a youtube video using API and using a machine learning text summerize and train it as you go.
+   Project 17 B : Youtube transcprit summerizer, downloading transcprit of a youtube video using API and using a machine learning text summerize and train it as you go.
       Key Skills: API searching/ handling, Machine learning.
 
-   Project 19: Automation of Cloud Infrastructure Management Automate cloud tasks like launching and terminating instances, scaling infrastructure, or backing up data using cloud provider APIs.
+   Project 18: Automation of Cloud Infrastructure Management Automate cloud tasks like launching and terminating instances, scaling infrastructure, or backing up data using cloud provider APIs.
       Key Skills: Working with cloud SDKs and APIs (e.g., AWS boto3, Google Cloud SDK), automating infrastructure, handling API credentials.
 
-   Project 20: API Testing Automation Script Create a script to automatically test REST APIs by sending requests and verifying responses and status codes.
+   Project 19: API Testing Automation Script Create a script to automatically test REST APIs by sending requests and verifying responses and status codes.
       Key Skills: Working with testing frameworks (unittest, pytest), writing test cases, handling API responses, automation.
 
-   Project 21: Chatbot Using APIs Build a chatbot for messaging platforms like Telegram, Slack, or Discord that interacts with users and retrieves information from third-party APIs.
+   Project 20: Chatbot Using APIs Build a chatbot for messaging platforms like Telegram, Slack, or Discord that interacts with users and retrieves information from third-party APIs.
       Key Skills: Working with messaging APIs, handling real-time messages, integrating third-party APIs, managing bots.
