@@ -4,6 +4,7 @@ import os
 import sys
 import shutil
 class Photos:
+   # Moving image to dir "Photos"
    def move_to_photos(images_path, dir_path):
       for image in images_path:
 
@@ -35,6 +36,7 @@ class Photos:
       return photos_path
 
 class TextFile:
+   # Moving files to dir "Documents"
    def move_to_documents(documents_path, dir_path):
       for files in documents_path:
 
@@ -65,6 +67,7 @@ class TextFile:
       return documents_path
 
 class WordDocx:
+   # Moving files to dir "Docx"
    def move_to_docx(docx_path, dir_path):
          for files in docx_path:
 
@@ -96,6 +99,7 @@ class WordDocx:
       return docx_path
 
 class PowerPoint:
+   # Moving files to dir "PowerPoint"
    def move_to_ppt(ppt_path, dir_path):
          for ppt in ppt_path:
 
