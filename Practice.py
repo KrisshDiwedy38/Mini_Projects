@@ -1,14 +1,45 @@
-num = [ 2,7,3,8,1,4]
-count = 0
+ones = {
+   'one' : 1,
+   'two' : 2,
+   'three' : 3,
+   'four' : 4,
+   'five': 5,
+   'six': 6,
+   'seven': 7,
+   'eight':8,
+   'nine': 9,
+}
 
-def swap( num, a , b):
-   num[a],num[b] = num[b],num[a]
+tens = {
+   'ten' : 10,
+   'twenty' : 20,
+   'thirty' : 30,
+   'fourty' : 40,
+   'fifty': 50,
+   'sixty': 60,
+   'seventy': 70,
+   'eighty':80,
+   'ninty': 90,
+}
 
-while num != sorted(num):
-   for i in range(0,len(num)-1):
-      if num[i] > num[i+1]:
-         swap(num,i,i+1)
-         count += 1
+rest = {
+   'hundred' : 100,
+   'thousand' : 1000,
+   'million' : 1000000,
+}
 
-print(num)
-print(count)
+in_words = input("Enter any number in words:")
+
+words = in_words.split(" ")
+in_numeric = 0
+for i in words:
+   if i in ones:
+      in_numeric += ones[i]
+   elif i in tens:
+      in_numeric += tens[i]
+   elif i in rest:
+      in_numeric *= rest[i]
+   else:
+      pass
+
+print(f"In Words: {in_words} -> Numeric Value: {in_numeric}")
