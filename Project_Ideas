@@ -73,3 +73,82 @@ PYTHON SCRIPTING PROJECTS
 
    Project 20: Chatbot Using APIs Build a chatbot for messaging platforms like Telegram, Slack, or Discord that interacts with users and retrieves information from third-party APIs.
       Key Skills: Working with messaging APIs, handling real-time messages, integrating third-party APIs, managing bots.
+
+   Project 21: Olympics Medal Analysis
+      Build a data analysis project that processes historical Olympic data to uncover patterns in country performance and medal distribution over time.
+      Key Skills: 
+         Data loading and cleaning with Pandas, statistical analysis with NumPy,    simple plots using Matplotlib, data aggregation.
+      Features:
+         Load and clean Olympics dataset (from Kaggle).
+         Handle missing values and clean country names.
+         Compute total medal tallies, most successful countries, and medals by year.
+      Visualize:
+         Top 10 countries by gold, silver, bronze, and total medals.
+         Medal trends over years.
+         Use NumPy to compute average and standard deviation of medals per event or country.
+
+   Project 22: Stock Market Technical Analysis
+      Develop a tool to analyze stock data and compute technical indicators to identify price patterns and potential trading signals.
+      Key Skills: 
+         Time series analysis with Pandas, rolling statistics with NumPy, financial plotting with Matplotlib, signal detection with SciPy.
+      Features:
+         Load stock market data from CSV (e.g., Yahoo Finance).
+         Calculate indicators such as:
+            Simple and Exponential Moving Averages (SMA, EMA)
+            Bollinger Bands
+            Daily returns
+      Visualize:
+         Price with overlaid technical indicators
+         Peaks in price using scipy.signal.find_peaks
+      Apply smoothing and noise reduction to better identify trends.
+
+   Project 23: Human Activity Recognition using Signal Processing
+      Analyze and classify smartphone sensor data to identify different human activities like walking, sitting, or running.
+      Key Skills:
+         Time-series segmentation with Pandas, signal feature extraction with NumPy, FFT and filters with SciPy, advanced visualizations.
+      Features:
+         Load accelerometer and gyroscope data from the UCI HAR dataset.
+         Segment data into windows and extract statistical and signal-based features:
+            Mean, standard deviation, energy, entropy
+            Frequency domain features using FFT
+      Visualize:
+         Sensor signals over time
+         Frequency spectrum
+         Activity distributions
+      Bonus: 
+         Train a simple classifier (e.g., logistic regression or decision tree) using Scikit-learn to classify activities based on extracted features.
+
+   Project 24: Iris Flower Classification
+      Classify the species of an Iris flower based on petal and sepal measurements using a simple machine learning model.
+      Key Skills: 
+         Scikit-learn built-in datasets, KNN and Logistic Regression, evaluation metrics, exploratory data analysis.
+      Features:
+         Load the Iris dataset using sklearn.datasets.load_iris.
+         Explore the dataset: dimensions, feature distribution, correlations.
+         Train models like K-Nearest Neighbors or Logistic Regression.
+         Evaluate performance using accuracy_score, confusion_matrix, and classification_report.
+         Visualize decision boundaries using two selected features.
+   
+   Project 25: Movie Review Sentiment Analysis (NLP)
+      Build a sentiment classifier that predicts whether a movie review is positive or negative using machine learning and NLP.
+      Key Skills: 
+         Natural Language Processing, text vectorization, Scikit-learn pipelines, Naive Bayes and Logistic Regression, hyperparameter tuning.
+      Features:
+         Load IMDB dataset using nltk or a Kaggle source.
+         Preprocess text: lowercase, remove punctuation, stopword removal.
+         Use TfidfVectorizer to convert text into numerical features.
+         Train a Naive Bayes and Logistic Regression classifier.
+         Tune model with GridSearchCV and test performance.
+         Evaluate using precision, recall, F1-score, and confusion matrix.
+
+   Project 26: House Price Prediction – Regression Pipeline
+      Create a full pipeline that processes real estate data and predicts house prices using regression models and feature engineering.
+      Key Skills: 
+         Scikit-learn Pipelines, ColumnTransformer, regression modeling, data preprocessing, feature selection, model tuning.
+      Features:
+         Load Ames Housing dataset from Kaggle.
+         Handle missing values, encode categorical features, scale numeric ones.
+         Build a Pipeline with ColumnTransformer for preprocessing.
+         Train multiple regression models: Linear Regression, Ridge, Random Forest, Gradient Boosting.
+         Evaluate using RMSE and R² score.
+         Perform model selection and tuning using GridSearchCV and cross_val_score.
