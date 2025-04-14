@@ -38,14 +38,14 @@ PYTHON SCRIPTING PROJECTS
    Project 9: Desktop Notifier Develop a program that displays desktop notifications for reminders or updates from specific sources. The program should allow users to set reminders and customize notification content.
    
    Project 10: Simple Encryption/Decryption Tool Create a basic tool that can encrypt and decrypt text using a simple algorithm like the Caesar cipher. The program should allow users to input text and a key for encryption/decryption.
-
+<!-- 
    Project 11: Stock Price Tracker Build a script to fetch live stock prices from a financial API (e.g., Alpha Vantage, Yahoo Finance) and track the prices over time.
       Key Skills: API integration, handling time series data, and maybe plotting trends using matplotlib or seaborn. 
 
    Project 12: GitHub API Automation Automate tasks on GitHub, such as creating repositories, managing issues, or pulling data about your repositories using the GitHub API.
       Key Skills: Authentication with APIs (OAuth), working with JSON, handling pagination in API results.
    
-   Project 12 B: Github auto commit, Build a script to automatically commit files to specified github repository whenever the a file or any change is saved.
+   Project 12 B: Github auto commit, Build a script to automatically commit files to specified github repository whenever the a file or any change is saved. -->
 
    Project 13: Task Automation Using Google Sheets API Automate tasks like updating data, creating reports, or reading from Google Sheets using the Google Sheets API.
       Key Skills: API authentication (OAuth 2.0), working with the gspread library, handling spreadsheet data.
@@ -61,9 +61,9 @@ PYTHON SCRIPTING PROJECTS
 
    Project 17: YouTube Video Downloader with API Integration Automate the process of searching for videos using the YouTube Data API and downloading them using a library like pytube.
       Key Skills: API search, handling video metadata, downloading files, managing API keys.
-
+<!-- 
    Project 17 B : Youtube transcprit summerizer, downloading transcprit of a youtube video using API and using a machine learning text summerize and train it as you go.
-      Key Skills: API searching/ handling, Machine learning.
+      Key Skills: API searching/ handling, Machine learning. -->
 
    Project 18: Automation of Cloud Infrastructure Management Automate cloud tasks like launching and terminating instances, scaling infrastructure, or backing up data using cloud provider APIs.
       Key Skills: Working with cloud SDKs and APIs (e.g., AWS boto3, Google Cloud SDK), automating infrastructure, handling API credentials.
