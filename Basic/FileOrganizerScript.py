@@ -9,17 +9,17 @@ class Photos:
       for image in images_path:
 
          shutil.move(image,dir_path)
-      return "Images added to dir Photos successfully!"
+      return "Images added to dir Images successfully!"
 
    def create_photos(target):
-      #Checking is Photos exists or not, creating a new dir "photos" if does not exist
+      #Checking if Photos exists or not, creating a new dir "Images" if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
-            if directory.lower() == "photos":
-               photos_path = os.path.join(target, directory) #Creating path for photos dir
+            if directory.lower() == "Images":
+               photos_path = os.path.join(target, directory) #Creating path for Images dir
                return photos_path 
-      photos_path = os.path.join(target,"photos")
-      os.mkdir(photos_path) #Creating photos and returning it's path
+      photos_path = os.path.join(target,"Images")
+      os.mkdir(photos_path) #Creating Images and returning it's path
       return photos_path
 
 
@@ -41,17 +41,17 @@ class TextFile:
       for files in documents_path:
 
          shutil.move(files,dir_path)
-      return "files added to dir documents successfully!"
+      return "files added to dir Documents successfully!"
 
    def create_documents(target):
-      #Checking is 'documents' exists or not, creating a new dir 'documents' if does not exist
+      #Checking if 'Documents' exists or not, creating a new dir 'Documents' if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
-            if directory.lower() == "documents":
-               documents_path = os.path.join(target, directory) #Creating path for 'documents' dir
+            if directory.lower() == "Documents":
+               documents_path = os.path.join(target, directory) #Creating path for 'Documents' dir
                return documents_path 
-      documents_path = os.path.join(target,"documents")
-      os.mkdir(documents_path) #Creating documents and returning it's path
+      documents_path = os.path.join(target,"Documents")
+      os.mkdir(documents_path) #Creating Documents and returning it's path
       return documents_path
    
    def find_documents(target):
@@ -75,14 +75,14 @@ class WordDocx:
          return "files added to dir docx successfully!"
 
    def create_docx(target):
-      #Checking if 'docx' exists or not, creating a new dir 'docx' if does not exist
+      #Checking if 'Docx' exists or not, creating a new dir 'Docx' if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
-            if directory.lower() == "docx":
-               docx_path = os.path.join(target, directory) #Creating path for 'docx' dir
+            if directory.lower() == "Docx":
+               docx_path = os.path.join(target, directory) #Creating path for 'Docx' dir
                return docx_path 
-      docx_path = os.path.join(target,"docx")
-      os.mkdir(docx_path) #Creating docx and returning it's path
+      docx_path = os.path.join(target,"Docx")
+      os.mkdir(docx_path) #Creating Docx and returning it's path
       return docx_path
 
 
@@ -91,7 +91,7 @@ class WordDocx:
       #Finding files in target directory
       for root, dirs, files in os.walk(target):
          for file in files:
-            if file.endswith(".docx"):
+            if file.endswith(".docx") or file.endswith(".doc"):
                #Making a list of  paths
                path = os.path.join(target,file)
                docx_path.append(path)
@@ -107,14 +107,14 @@ class PowerPoint:
          return "Ppt added to dir PowerPoint successfully!"
 
    def create_ppt(target):
-      #Checking if 'powerpoint' exists or not, creating a new dir 'powerpoint' if does not exist
+      #Checking if 'Powerpoint' exists or not, creating a new dir 'Powerpoint' if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
             if directory.lower() == "powerpoint":
-               ppt_path = os.path.join(target, directory) #Creating path for 'powerpoint' dir
+               ppt_path = os.path.join(target, directory) #Creating path for 'Powerpoint' dir
                return ppt_path 
       ppt_path = os.path.join(target,"powerpoint")
-      os.mkdir(ppt_path) #Creating powerpoint and returning it's path
+      os.mkdir(ppt_path) #Creating Powerpoint and returning it's path
       return ppt_path
 
 
@@ -135,9 +135,9 @@ def main(target_dir):
    #Checking if directory has images and finding their paths
    image_paths = Photos.find_photos(target_dir)
    if image_paths:
-      #Creating dir "photos"
+      #Creating dir "Images"
       photos_dir_path = Photos.create_photos(target_dir)
-      #Moving images to photos
+      #Moving images to Images
       print(Photos.move_to_photos(image_paths, photos_dir_path))
    else:
       print("No images in the directory")
@@ -145,9 +145,9 @@ def main(target_dir):
    #Checking if directory has text files and finding their paths
    documents_paths = TextFile.find_documents(target_dir)
    if documents_paths:
-      #Creating dir "documents"
+      #Creating dir "Documents"
       documents_dir_path = TextFile.create_documents(target_dir)
-      #Moving text files to documents
+      #Moving text files to Documents
       print(TextFile.move_to_documents(documents_paths, documents_dir_path))
    else:
       print("No text files in the directory")
@@ -155,9 +155,9 @@ def main(target_dir):
    #Checking if directory has word docx and finding their paths
    docx_paths = WordDocx.find_docx(target_dir)
    if docx_paths:
-      #Creating dir "photos"
+      #Creating dir "Docx"
       docx_dir_path = WordDocx.create_docx(target_dir)
-      #Moving images to photos
+      #Moving images to Docx
       print(WordDocx.move_to_docx(docx_paths, docx_dir_path))
    else:
       print("No Word Docx in the directory")
@@ -165,7 +165,7 @@ def main(target_dir):
    #Checking if directory has power points and finding their paths
    ppt_paths = PowerPoint.find_ppt(target_dir)
    if ppt_paths:
-      #Creating dir "powerpoint"
+      #Creating dir "Powerpoint"
       ppt_dir_path = PowerPoint.create_ppt(target_dir)
       #Moving ppt to PowerPoint
       print(PowerPoint.move_to_ppt(ppt_paths, ppt_dir_path))
