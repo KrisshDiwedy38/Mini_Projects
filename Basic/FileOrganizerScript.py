@@ -72,16 +72,16 @@ class WordDocx:
          for files in docx_path:
 
             shutil.move(files,dir_path)
-         return "files added to dir docx successfully!"
+         return "Word files added to dir Docs successfully!"
 
    def create_docx(target):
       #Checking if 'Docx' exists or not, creating a new dir 'Docx' if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
-            if directory.lower() == "Docx":
+            if directory.lower() == "Docs":
                docx_path = os.path.join(target, directory) #Creating path for 'Docx' dir
                return docx_path 
-      docx_path = os.path.join(target,"Docx")
+      docx_path = os.path.join(target,"Docs")
       os.mkdir(docx_path) #Creating Docx and returning it's path
       return docx_path
 
@@ -110,10 +110,10 @@ class PowerPoint:
       #Checking if 'Powerpoint' exists or not, creating a new dir 'Powerpoint' if does not exist
       for root, dirs, files in os.walk(target):
          for directory in dirs:
-            if directory.lower() == "powerpoint":
+            if directory.lower() == "Powerpoints":
                ppt_path = os.path.join(target, directory) #Creating path for 'Powerpoint' dir
                return ppt_path 
-      ppt_path = os.path.join(target,"powerpoint")
+      ppt_path = os.path.join(target,"Powerpoints")
       os.mkdir(ppt_path) #Creating Powerpoint and returning it's path
       return ppt_path
 
